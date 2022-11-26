@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta http-equiv="content-language" content="fa" />
+ <meta name="description" content="" />
+ <meta name="keywords" content="" />
+ <title></title>
+ <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="css/style2.css">
+ <link rel="stylesheet" type="text/css" href="https://mayammad2.github.io/icofont/icofont.css">
+ <link rel="stylesheet" type="text/css" href="https://mayammad2.github.io/icofont/icofont.min.css">
+ <script type="text/javascript" h></script>
+ 
+</head>
+<style type="text/css">
+
+</style>
+<body>
+<br>
+
+   <header>
+      <nav>
+         
+         <p style="float: right">
+            <a href="#"> Home </a> |
+            <a href="#"> About </a> |
+            <a href="#"> Contact Us </a> |
+            <a href="#"> Terms of Services </a> |
+            <a href="#"> Privacy Policy </a>
+         </p>
+      </nav>
+   </header>
+<br><br>
+<form class="form1">
+<h1>ســــلام</h1>
+</form>
+<br>
+<form class="form2" method="GET">
+<dt><span class="icofont-ui-user icofont-2x"></span>لطفا نوع ارتباط خود با کارگاه را مشخص کنید<span class="str" > *</span></dt>
+   <dd>
+    <select class="sel" name="kfhast" >
+     <option name="kf" id="" value="کارفرما">کـارفــرمای کارگــاه هستــم</option>
+     <option name="unkf" id="" value="نماینده">نماینــده کـارفــرمـا هستــم</option>
+    </select>
+   </dd>
+<dt><span class="icofont-cc icofont-2x" id="hh"></span>لطفا کد کارگاه را وارد کنید<span class="str" > *</span></dt>
+  <dd>
+   <input type="text" class="textbox1" id="karid" ondragleave="mykoon()">
+  </dd>
+<dt><span class="icofont-badge icofont-2x"></span>لطفا نام کارگاه را وارد کنید<span class="str" > *</span></dt>
+  <dd>
+   <input type="text" class="textbox2" name="karname" >
+  </dd>
+<dt><span class="icofont-badge icofont-2x"></span>لطفا نام کارگاه را وارد کنید<span class="str" > *</span></dt>
+  <dd>
+   <input type="text" class="textbox2" name="karkf" >
+  </dd>
+<dt><span class="icofont-badge icofont-2x"></span>لطفا نام کارگاه را وارد کنید<span class="str" > *</span></dt>
+  <dd>
+   <input type="text" class="textbox2" name="kartel" >
+  </dd>
+  <br><p id="aa" >gggggggg</p><br>
+  
+  <center>
+ 
+
+ 
+ </center>
+</form>
+ 
+<form class="form2"><br><center>
+ <a href="https://tamin.ir" download="media/000.jpg" ><img class="b1"  src="media/000.jpg" ></a>
+ <input type="button" class="b1" style="background: #428bca;" name="b1" id="b1" value="❶   بیمه شدگان" >
+ <br><br>
+  <a href="media/000.jpg" ><input type="button" class="b1" style="background: #FFEAA1;" name="b1" id="b1" value="❷  مستمـری بگیـران" ></a>
+  <br><br>
+   <a href="https://tamin.ir" ><input  type="button" class="b1" style="background: #459BFF;" name="b1" id="b1" value="❸  کـارفــرمایـان"></a>
+   <br><br>
+  
+<hr height="2px" width="75%" coords="y"   color="red" >
+<marquee class="tex" data-animation=""    ></marquee>
+<audio src="media/mp3-1.mp3" controls="true" autoplay="true" code="d" >hi</audio>  </center>
+</form>
+
+ <form class="form3"><br><br>
+<textarea style="width:300px;height:500px;align:" dir="ltr" > 
+   <hr>
+   <dt class="dt1"><span class="icofont-businessman icofont-2x"></span>نام آقایان</dt>
+   <dd><span id="fname"></span></dd>
+   <hr>
+   <dt><span class="icofont-ui-user icofont-2x"></span>نام خانوادگی</dt>
+   <dd id="lname"></dd>
+   <hr>
+   <dt><span class="icofont-stock-mobile icofont-2x"></span>همراه</dt>
+   <dd id="mobile"></dd>
+   <hr>
+   <dt><span class="icofont-ui-user icofont-2x"></span>کدکارگاه</dt>
+   <dd id="idkar"></dd>
+   <hr>
+   <dt><span class="icofont-ui-user icofont-2x"></span>نام کارگاه</dt>
+   <dd id="nkar"></dd>
+   <hr>
+   <dt><span class="icofont-ui-user icofont-2x"></span>کارفرما</dt>
+   <dd id="kfkar"></dd>
+   <hr>
+   <dt><span class="icofont-id-card icofont-2x"></span>کدملی</dt>
+   <dd id="id"></dd>
+   <hr>
+   <dt><span class="icofont-bell-alt icofont-2x"></span>مشمول؟</dt>
+   <dd id="mash"></dd>
+   <hr>
+   <dt><span class="icofont-ui-user icofont-2x"></span>توضیحات</dt>
+   <dd id="etc"></dd>
+   <hr>
+  </dl>
+  
+ </form>
+ <script>
+ var ggg=new Date
+ var xmlhttp, xmlDoc;
+ xmlhttp = new XMLHttpRequest();
+ xmlhttp.open("GET", "https://mayammad2.github.io/listkar.xml", false);
+ xmlhttp.send();
+ xmlDoc = xmlhttp.responseXML;
+ document.getElementById("fname").innerHTML=
+ xmlDoc.getElementsByTagName("fname")[0].childNodes[0].nodeValue;
+ document.getElementById("lname").innerHTML=
+ xmlDoc.getElementsByTagName("lname")[0].childNodes[0].nodeValue;
+ document.getElementById("id").innerHTML=
+ xmlDoc.getElementsByTagName("id")[0].childNodes[0].nodeValue;
+ document.getElementById("mobile").innerHTML=
+ xmlDoc.getElementsByTagName("mobile")[0].childNodes[0].nodeValue;
+ document.getElementById("idkar").innerHTML=
+ xmlDoc.getElementsByTagName("idkar")[0].childNodes[0].nodeValue;
+ document.getElementById("nkar").innerHTML=
+ xmlDoc.getElementsByTagName("nkar")[0].childNodes[0].nodeValue;
+ document.getElementById("kfkar").innerHTML=
+ xmlDoc.getElementsByTagName("kfkar")[0].childNodes[0].nodeValue;
+ document.getElementById("mash").innerHTML=
+ xmlDoc.getElementsByTagName("mash")[0].childNodes[0].nodeValue;
+ document.getElementById("etc").innerHTML=
+ xmlDoc.getElementsByTagName("etc")[0].childNodes[0].nodeValue;
+ </script>
+ </textarea><script src="js/script.js"></script>
+</body>
+</html>
