@@ -43,19 +43,25 @@
 
 .menu {
 font-family:yekan;
-font-size:15px;
+font-size:14px;
 border:2px solid red;
 border-radius:10px;
-height:20px;
+height:24px;
 font-weight:bolder;
 font-stretch:expanded;
 background-image:url("../media/02.jpg");
 width:350px;
-align-items:center;
+text-align:right;
+
 }
 
 .link {
+border:2px;
+border-style:ridge;
 border-radius:5px;
-background-color:#FFFDB9;
+background-color:transparent;
+background-clip:content-box;
 color:black;
+color-adjust:500;
+padding-bottom:5px;
 }
