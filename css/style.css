@@ -57,11 +57,33 @@ text-align:right;
 
 .link {
 border:2px;
-border-style:ridge;
+border-style:double;
 border-radius:5px;
 background-color:transparent;
 background-clip:content-box;
 color:black;
 color-adjust:500;
 padding-bottom:5px;
+}
+
+
+.button {
+	background-color: #ffd1fa;
+	text-decoration: none;
+	font: 17px 'b yekan';
+	color: #565656;
+	display: line-block;
+	padding: 0 33px;
+	line-height: 49px;
+	border: 1px solid #fff2fa;
+	border-right-color: #c393be;
+	border-bottom-color: #c393be;
+}
+.button:hover {
+	border-color: #c393be;
+	border-right: #fff2fa;
+	border-bottom-color: #fff2fa;
+}
+.button:active {
+	background-color: #fae3fd;
 }
