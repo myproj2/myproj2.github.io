@@ -40,50 +40,29 @@
 }
 
 
-
-.menu {
-font-family:yekan;
-font-size:14px;
-border:2px solid red;
+div1 {
+font-family:irsans;
+font-size-adjust:20px;
+}
+.clumb1 {
+border:2px #ddd;
 border-radius:10px;
-height:24px;
+width:auto;
+height:40px;
+background-image:url("../media/H1.Bim.png");
+}
+.titr {
 font-weight:bolder;
-font-stretch:expanded;
-background-image:url("../media/02.jpg");
-width:350px;
-text-align:right;
-
+padding-top:10px;
+text-align:center;
+font-family:irsans;
+font-size:30px;
+color:white;
 }
 
-.link {
-border:2px;
-border-style:double;
-border-radius:5px;
-background-color:transparent;
-background-clip:content-box;
-color:black;
-color-adjust:500;
-padding-bottom:5px;
-}
-
-
-.button {
-	background-color: #ffd1fa;
-	text-decoration: none;
-	font: 17px 'b yekan';
-	color: #565656;
-	display: line-block;
-	padding: 0 33px;
-	line-height: 49px;
-	border: 1px solid #fff2fa;
-	border-right-color: #c393be;
-	border-bottom-color: #c393be;
-}
-.button:hover {
-	border-color: #c393be;
-	border-right: #fff2fa;
-	border-bottom-color: #fff2fa;
-}
-.button:active {
-	background-color: #fae3fd;
+.divform {
+  border:2px solid blue;
+  border-radius:10px;
+  width:auto;
+  height:200px;
 }
